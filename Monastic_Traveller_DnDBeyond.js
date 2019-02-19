@@ -29,11 +29,14 @@ BackgroundList["monastic traveller"] = {
 	name : "Monastic Traveller",
 	source : ["DND:BEYOND", 0],
     skills : ["History", "Perception"],
-    gold : 10,
+		gold : 10,
+	equipleft : [
+		["Choose one set of Artisan's Tools from this list: Calligrapher's Supplies, Cook's Utensils, Painter's Supplies, Herbalism Kit", "1", ""]
+	],
 	equipright : [
-		["Clothes, Traveler's", "", 4],
-		["Trinket from your Monastery", "", ""],
-		["Belt pouch (with coins)", "", 1],
+		["Clothes, Traveler's", "1", 4],
+		["Trinket from your Monastery", "1", ""],
+		["Belt pouch (with coins)", "1", 1],
 	],
 	feature : "Monastic Influence",
 	trait : [
